@@ -17,7 +17,7 @@ def timeDec(func):#returns the execution time for the function
     return
   return inner
 
-@timeDecs
+@timeDec
 def testFunction1(i, j):
   for x in range(i):
     x*x
